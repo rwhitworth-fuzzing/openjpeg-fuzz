@@ -41,3 +41,19 @@
 #8  0x0000000000408d0e in main (argc=<optimized out>, argv=<optimized out>) at /root/openjpeg/src/bin/jp2/opj_decompress.c:1463
 ```
 
+
+`id:000048,sig:11,src:000498,op:havoc,rep:4`
+```
+#0  0x00000000004095fe in clip_component (component=0x7dfd60, precision=8) at /root/openjpeg/src/bin/jp2/convert.c:88
+#1  0x0000000000422d9e in imagetotif (image=<optimized out>, outfile=<optimized out>) at /root/openjpeg/src/bin/jp2/converttif.c:640
+#2  0x0000000000408529 in main (argc=<optimized out>, argv=<optimized out>) at /root/openjpeg/src/bin/jp2/opj_decompress.c:1628
+```
+
+
+`id:000133,sig:11,src:000960,op:havoc,rep:4`
+```
+#0  0x000000000040984f in clip_component (component=0x184a950, precision=10) at /root/openjpeg/src/bin/jp2/convert.c:79
+#1  0x0000000000422d9e in imagetotif (image=<optimized out>, outfile=<optimized out>) at /root/openjpeg/src/bin/jp2/converttif.c:640
+#2  0x0000000000408529 in main (argc=<optimized out>, argv=<optimized out>) at /root/openjpeg/src/bin/jp2/opj_decompress.c:1628
+```
+
